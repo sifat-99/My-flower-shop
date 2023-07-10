@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header-container {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0px 240px;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.header-title{
+    /* padding: 197px 972px 10px 0px; */
+}
