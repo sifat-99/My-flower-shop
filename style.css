@@ -150,41 +150,53 @@ section h4 {
     gap: 186px;
     padding: 100px 0px;
 }
+
 /* for hot sell button */
-.btn-primary{
+.btn-primary {
     /* display: inline-flex; */
-padding: 20px 43px;
-/* align-items: center; */
-gap: 10px;
-border-radius: 8px;
-background: #E55473;
-color: #FFFFFF;
-border: none;
+    padding: 20px 43px;
+    /* align-items: center; */
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    border: none;
 }
-.hot-sell-data{
+
+.hot-sell-data {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /* hot sell off color */
-.off
-{
+.off {
     color: #E55473;
 }
+
 /* instagram section */
-.section-title-instagram
-{
+.section-title-instagram {
     padding-top: 128px;
     padding-bottom: 24px;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
+
 /* .instagram-title-description */
-.instagram-title-description
-{
+.instagram-title-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* picture gallary */
+.all-picture {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 128px;
 }
