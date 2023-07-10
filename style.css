@@ -41,7 +41,7 @@
 }
 
 /* section handle */
-section {
+.section-1 {
     height: 100vh;
     margin-left: 240px;
     margin-right: 240px;
@@ -202,28 +202,62 @@ section h4 {
 }
 
 /* latest deal container style */
-.latest-deals-container
-{
+.latest-deals-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-background: url("./Flower Asset/Rectangle 9.png"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    background: url("./Flower Asset/Rectangle 9.png"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
 
 }
-.section-title-deals{
+
+.section-title-deals {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-padding-top: 122px;
-padding-bottom: 16px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+    padding-bottom: 16px;
 }
-.section-description-of-deals{
+
+.section-description-of-deals {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-padding-bottom: 48px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+/* input bos style */
+.input-box {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 0px 22px;
+}
+
+/* Suscribe button */
+.btn-deals {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* input-box-button */
+.input-box-button {
+    padding-bottom: 121px;
+}
+
+/* for second or new section */
+.new-section {
+    margin: 128px 240px;
 }
